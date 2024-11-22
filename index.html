@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
             <div class="quiz-form">
                 <form>
                     <div class="quiz-steps-container">
-                        <div class="quiz-step" data-step="1">
+                        <div class="quiz-step" >
                             <div class="quiz-step-title">When did the accident happen?</div>
                             <input type="text" >
                         </div>
@@ -49,7 +50,6 @@
                         <div class="quiz-step" data-step="8">
                             <div class="quiz-step-title">What is your First and Last Name?</div>
                             <input type="text" >
-                            <input type="text" >
                         </div>
                         <div class="quiz-step" data-step="9">
                             <div class="quiz-step-title">What is your email address?</div>
@@ -61,9 +61,7 @@
                         </div>
                     </div>
                     <div class="quiz-navigation">
-                        <div class="quiz-btn quiz-btn-prev" id="quiz-btn-prev">Prev</div>
-                        <div class="quiz-btn quiz-btn-next" id="quiz-btn-next">Next</div>
-                    </div>
+                        <input class="quiz-submit" type="submit">
                 </form>
             </div>
         </div>
