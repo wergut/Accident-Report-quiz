@@ -20,7 +20,7 @@ body {
 
 .quiz-section {
     background-color: #133981;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .quiz-section .quiz-form {
@@ -80,6 +80,15 @@ body {
     color: #e90f0f;
     margin-top: 5px;
     font-size: 14px;
+}
+
+.quiz-section .quiz-title {
+    font-size: 38px;
+    line-height: 38px;
+    margin-bottom: 50px;
+    color: #fff;
+    max-width: 70%;
+    font-weight: 700;
 }
 
 .quiz-section .input-error {
