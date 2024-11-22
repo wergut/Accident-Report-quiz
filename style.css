@@ -7,14 +7,26 @@ body {
     padding: 0;
 }
 
+.quiz-section .quiz-image {
+    width: calc(50% - 15px);
+    padding-right: 15px;
+}
+
+.quiz-section .quiz-image img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .quiz-section {
     background-color: #133981;
     padding: 50px 0;
 }
 
 .quiz-section .quiz-form {
-    max-width: 540px;
-    margin: 0 auto;
+    width: calc(50% - 15px);
+    margin-left: auto;
+    padding-left: 15px;
 }
 
 .container {
@@ -22,6 +34,8 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .quiz-section input {
