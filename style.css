@@ -12,6 +12,11 @@ body {
     padding-right: 15px;
 }
 
+.quiz-section .container {
+    overflow: hidden;
+    padding: 0;
+}
+
 .quiz-section .quiz-image img {
     max-width: 100%;
     width: 100%;
@@ -19,8 +24,9 @@ body {
 }
 
 .quiz-section {
-    background-color: #133981;
+    background-color: transparent;
     padding: 75px 0;
+    overflow: hidden;
 }
 
 .quiz-section .quiz-form {
