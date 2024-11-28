@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         btnPrev.style.display = currentStep === 1 ? "none" : "flex";
-        btnNext.textContent = currentStep === steps.length ? "Submit" : "Next";
+        btnNext.textContent = currentStep === steps.length ? "Сontact me" : "Next";
     };
 
     const showError = (input, message) => {
